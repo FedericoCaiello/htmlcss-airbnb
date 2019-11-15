@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+}
+
+.nazione {
+  background-image: url(../img/milano.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: orange;
+  height: 500px;
+  width:100%;
+  position: relative;
+  margin: 5px;
+}
+
+.nazione:hover,.nazione2:hover,.nazione3:hover {
+  cursor: pointer;
+}
+
+.nazione:hover .opacita{
+  background-color: rgba(0, 0, 0, 0);
+}
+.nazione2:hover .opacita{
+  background-color: rgba(0, 0, 0, 0);
+}
+.nazione3:hover .opacita{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.opacita{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+.milano {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: blue;
+  font-size: 100px;
+}
+
+
+.nazione2{
+  background-image: url(../img/mosca-capitale.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  position: relative;
+  margin: 5px;
+}
+
+.mosca{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 100px;
+}
+
+.nazione3 {
+  background-image: url(../img/newyork123.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  position: relative;
+  margin: 5px;
+  /* padding: 10px; */
+}
+.newyork {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+}
